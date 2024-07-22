@@ -40,7 +40,10 @@
 - **Code Editor:** VS Code.
 - **Version Control:** Git and GitHub.
 
-<h3 align="center">✨ Welcome to PostGen-Bot ✨</h3> <hr>
+<h3 align="center">✨ Welcome to PostGen-Bot ✨</h3>
+<div align="center">
+<img src="aqua.png" alt="line">
+</div>
 
 ## Table of Contents
 <details>
@@ -72,6 +75,7 @@ PostGen-Bot is your AI-powered social media assistant, designed to help you crea
 
 - PostGen-Bot assists users in maintaining an active and engaging social media presence without the constant need to create material by automating the content generation procedure via telegram.
 - It allows to user's input for unique posts and also saves time.
+
 
 <div align="center">
 <img src="bot img2.JPG" alt="bot dashboard">
@@ -187,7 +191,9 @@ We welcome contributions to improve PostGen-Bot! Here's how you can contribute:
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-<hr>
+<div align="center">
+<img src="aqua.png" alt="line">
+</div>
 
 <div align="center">
 Made with ❤️ for social media enthusiasts
