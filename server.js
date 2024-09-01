@@ -134,11 +134,11 @@ bot.command('generate', async (ctx) => {
       messages: [
         {
           role: 'system',
-          content: 'Act as a senior copywriter and social media strategist. Write highly engaging, short, crisp and unique SEO friendly posts for LinkedIn, Instagram and Twitter(x) using provided thoughts/events throughout the day. Tailor each SEO friendly post to the platforms unique audience and style.',
+          content: 'Act as a senior copywriter and social media strategist. Write highly engaging, crisp and unique SEO friendly posts for LinkedIn, Instagram and Twitter(x) using provided thoughts/events throughout the day. Tailor each SEO friendly post to the platforms unique audience and style.',
         },
         {
           role: 'user',
-          content: `Write like a human, for humans. Craft three engaging, short, crisp and unique SEO friendly social media posts tailored for LinkedIn, Instagram and Twitter(x) audiences. Use simple, conversational, authentic writing language with a dash of humor. Use given time labels just to understand the order of the event, don't mention the time in the posts. Each SEO friendly post should creatively highlight the following events. Ensure the tone is conversational and impactful and requests emojis at the end of each SEO friendly post, if necessary. Focus on engaging the respective platform's audience, encouraging interaction and driving interest in the events:\n${events.map((event) => event.text).join(', ')}`,
+          content: `Write like a human, for humans. Craft three engaging, crisp and unique SEO friendly social media posts tailored for LinkedIn, Instagram and Twitter(x) audiences. Use simple, conversational, authentic writing language with a dash of humor. Use given time labels just to understand the order of the event, don't mention the time in the posts. Each SEO friendly post should creatively highlight the following events. Ensure the tone is conversational and impactful and requests emojis at the end of each SEO friendly post, if necessary. Focus on engaging the respective platform's audience, encouraging interaction and driving interest in the events:\n${events.map((event) => event.text).join(', ')}`,
         }
       ],
     });
